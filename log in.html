@@ -1,0 +1,52 @@
+<html
+DOCTYPE html>
+
+<title>Sign Up / Login Page</title>
+<style>
+
+body {font-family: Arial, sans-serif; color: white}
+
+
+.container {max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);}
+
+h2 {text-align: center;}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;}
+
+input[type="submit"] {background-color: maroon;
+color: white;
+cursor: pointer;}
+</style>
+
+<body background="tup.jpg">
+
+</head>
+
+<div class="container">
+<h2>Sign Up / Login</h2>
+
+<form action="login.php" method="post">
+<label for="username">Username</label>
+<input type="text" id="username" name="username" required>
+
+<label for="password">Password</label>
+<input type="password" id="password" name="password" required>
+
+<input type="submit" value="Log In">
+</form>
+
+<p>Don't have an account? <a href="signup.html">Sign up</a></p>
+</div>
+</body>
+</html>
